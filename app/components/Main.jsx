@@ -1,11 +1,13 @@
 var React = require('react');
+const Navigation = require('Navigation');
 
 var Main = props => {
   return (
     <div>
       <div>
         <div>
-          <p>Main.jsx rendered and styled</p>
+          <Navigation className="row" />
+          <p>Timer component</p>
           {props.children}
         </div>
       </div>
