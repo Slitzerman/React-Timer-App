@@ -4,7 +4,9 @@ var PropTypes = React.PropTypes;
 var Timer = React.createClass({
   render: function() {
     return (
-      <div>Timer</div>
+      <div>
+        <div>Timer</div>
+      </div>
     );
   }
 });
