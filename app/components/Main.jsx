@@ -7,7 +7,6 @@ var Main = props => {
       <div>
         <div>
           <Navigation className="row" />
-          <p>Timer component</p>
           {props.children}
         </div>
       </div>

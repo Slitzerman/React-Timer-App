@@ -11,20 +11,12 @@ var Navigation = React.createClass({
           <ul className="menu">
             <li className="menu-text">React Timer App</li>
             <li>
-              <IndexLink
-                to="/"
-                className="active-link"
-                activeStyle={{ fontWeight: 'bold' }}
-              >
+              <IndexLink to="/" activeClassName="active-link">
                 Timer
               </IndexLink>
             </li>
             <li>
-              <Link
-                to="/"
-                className="active-link"
-                activeStyle={{ fontWeight: 'bold' }}
-              >
+              <Link to="/countdown" activeClassName="active-link">
                 Countdown
               </Link>
             </li>

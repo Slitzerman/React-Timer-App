@@ -3,10 +3,16 @@
   background-color: $nav-background;
 }
 
-.top-bar .menu-text {
-  color: $nav-textcolor;
-}
+.top-bar {
+  .menu-text {
+    color: $nav-textcolor;
+  }
 
-.menu > .menu-text > a {
-  display: inline;
+  .menu > .menu-text > a {
+    display: inline;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
 }
